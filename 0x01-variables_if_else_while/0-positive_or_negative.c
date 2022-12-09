@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - print whether the number stored in
- *  the variable n is positive or negative
+ * main - prints positive or negative
  *
- *  Return Always 0
+ *  Description: prints postive or negative numbers
+ *
+ *  Return Always 0 (Success)
  */
 
 int main(void)
-
 {
 		int n;
 		
