@@ -12,34 +12,25 @@ int main(void)
 {
 	int c;
 	int d;
-	int e = 0;
+	int e;
 
-	while (e < 10)
+	for (c = 0; c < 8; c++)
 	{
-		d = 0;
-		while (d <10)
+		for (d = c + 1; d < 9; d ++)
 		{
-			c = 10;
-			while (c < 10)
-			{
-				if (c != d && d != e && e < d && d < c)
+			for (e = d +1; e < 10; e++)
 				{
-					putchar('0' + e);
-					putchar('0' + d);
-					putchar('0' + c);
+					putchar((c % 10) + '0');
+					putchar((d % 10) + '0');
+					putchar((e % 10) + '0');
 
-					if (c + d + e != 9 + 8 + 7)
-					{
+					if (c == 7 && d == 8 && e ==9)
+						continue;
+					
 						putchar(',');
 						putchar(' ');
 					}
-				}
-
-				c++
 			}
-			d++
-		}
-		e++
 	}
 	putchar('\n');
 	return (0);
