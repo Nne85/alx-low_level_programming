@@ -22,22 +22,20 @@ int main(void)
 		{
 			e = d + 1;
 			while (e < 58)
-           		{
-					putchar(c);
-					putchar(d);
-					putchar(e);
+			{
+				putchar(c);
+				putchar(d);
+				putchar(e);
 
-					if (c < 55 || d < 56 || e < 57)
-					{
-						putchar(44);
-						putchar(32);
-					}
-					e++;
+				if (c < 55 || d < 56 || e < 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
+				e++;
 			}
-
 			d++;
-	       }
-
+		}
 		c++;
 	}
 
