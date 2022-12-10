@@ -7,7 +7,7 @@
  * Description: prints all possible different combinations of two digits
  * Return: Always 0 (Success)
  */
- int main(void)
+int main(void)
 {
 	int c;
 	int d = 0;
@@ -33,6 +33,5 @@
 		d++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
