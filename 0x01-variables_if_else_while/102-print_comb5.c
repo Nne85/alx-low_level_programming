@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	int a, b, c , d;
+	int a, b, c, d;
 
 	a = 48;
 	while (a < 58)
 	{
-		b =48;
+		b = 48;
 		while (b < 58)
 		{
 			d = b + 1;
