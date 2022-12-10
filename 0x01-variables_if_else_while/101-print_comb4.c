@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints all possible different combinations of three digits
@@ -10,28 +9,37 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e;
+	int c, d, e;
 
-	for (c = 0; c < 8; c++)
+	c = 58;
+	d = 58;
+	e = 58;
+
+	while (c < 68)
 	{
-		for (d = c + 1; d < 9; d ++)
+		d = c + 1;
+		while (d < 68)
 		{
-			for (e = d +1; e < 10; e++)
+			e = d + 1;
+			while (e <68)
 				{
-					putchar((c % 10) + '0');
-					putchar((d % 10) + '0');
-					putchar((e % 10) + '0');
+					putchar(c);
+					putchar(d);
+					putchar(e);
 
-					if (c == 7 && d == 8 && e ==9)
-						continue;
+					if (c < 65 || d < 66 || e < 67)
+					{
 					
-						putchar(',');
-						putchar(' ');
+						putchar(54);
+						putchar(42);
 					}
+					e++;
 			}
+			d++;
 	}
-	putchar('\n');
+		c++;
+	}
+
+	putchar(10);
 	return (0);
 }
