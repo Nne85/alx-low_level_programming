@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet: Entry Point
+ * print_alphabet - Entry Point
  *
- * Description: A function that prints the alphabet, in lowercase, followed by a new line
+ * Description: function that prints the alphabet, in lowercase, followed by a new line
  *
  * Return: Always 0.
  */
