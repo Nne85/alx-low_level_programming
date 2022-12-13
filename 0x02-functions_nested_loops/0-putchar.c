@@ -3,9 +3,9 @@
 /**
  * main - Entry Point
  *
- * Description: prints _putchar, followed by a new line
+ * Description: This prints _putchar, followed by a new line
  *
- * Returns: Always 0 Success
+ * Returns: Always 0 (Success)
  */
 int main(void)
 {
