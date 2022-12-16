@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  print_most_numbers - Print the numbers since 0 up to 9
+ *  more_numbers - Print 10 times the numbers from 0 to 9
  *
- *  Description: Print_most_numbers - Print the numbers since 0 up to 9
+ *  Description: Print_most_numbers - Print 10 times the numbers from 0 to 14
  *
- *  Return: The numbers since 0 up to 9
+ *  Return: 10 times of the numbers since 0 up to 14
  */
 void more_numbers(void)
 {
@@ -17,7 +17,7 @@ void more_numbers(void)
 		{
 			if (j >= 10)
 				_putchar(j / 10 + '0');
-			 _putchar(j % 10 + '0');
+			_putchar(j % 10 + '0');
 		}
 		_putchar('\n');
 	}
