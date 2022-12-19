@@ -2,7 +2,8 @@
 
 /**
  *  _puts - Write a function that prints a string, followed by a new line
- *  @st: This is input string 
+ *
+ *  @str: This is input string 
  *
  *  Description: Write a function that prints a string
  *
