@@ -2,9 +2,6 @@
 
 /**
  * main - tests function that prints if integer is positive or negative
- *
- * Description: test for a postitive_or_negative function 
- * 
  * Return: 0
  */
 int main(void)
