@@ -3,11 +3,11 @@
 
 /**
  * print_buffer - Prints a buffer
- *  @b: char
- *  @size: int
+ * @b: char
+ * @size: int
  *
- *  Description: write a function that prints a buffer.
- *  Return: void
+ * Description: write a function that prints a buffer.
+ * Return: void
  */
 void print_buffer(char *b, int size)
 {
