@@ -3,7 +3,8 @@
 /**
  * _memcpy - a function that copies memory area
  * @dest: memory where is stored
- * @size: the size of the memory to print
+ * @src: the size of the memory to print
+ * @n: number of bytes
  *
  * Description: Write a function that copies memory area.
  *
