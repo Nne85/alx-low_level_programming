@@ -4,9 +4,9 @@
  * string_toupper - change all lowercase to uppercase
  * @n: pointer
  *
- * Description: function that changes all lowercase letters of a string to uppercase
+ * Description: function that changes lowercase letters to uppercase
  *
- * Return: n
+ * Return: ni
  */
 char *string_toupper(char *n)
 {
