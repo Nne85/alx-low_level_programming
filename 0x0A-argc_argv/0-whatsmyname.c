@@ -2,12 +2,14 @@
 
 /**
  * main - display name of program
- * @agrc:int
- * @argv:string
+ * @agrc: Number of command line arguments
+ * @argv: Array name
  *
- * Return:int
+ * Description: program that prints its name
+ *
+ * Return: Always 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 1)
 	{
