@@ -10,26 +10,36 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, n, s, ch = 0;
+	int i, n, s, ch;
 	int c[] = {25, 10, 5, 2, 1};
+
+	i = n = s = ch = 0;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
 	s = atoi(argv[1]);
-	if (s < 1)
-		printf("0\n");
-	else
+
+	if (s <= 0)
 	{
-		for (i = 0; i < 5 && s; i++)
+		printf("0\n");
+		return (0);
+	}
+
+	while (c[i] != '\0')
+	{
+		if (s >= c[i])
 		{
 			n = s / c[i];
 			ch += n;
-			s -= n * c[i];
+			s -= c[i] * n;
 		}
-		printf("&d\n", ch);
+
+		i++;
 	}
+	printf("%d\n", ch);
 	return (0);
 }
