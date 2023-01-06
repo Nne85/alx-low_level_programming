@@ -2,10 +2,10 @@
 
 /**
  * main - prints all arguments
- * @argc: int
- * @argv: string
- *
- * Return: all argment
+ * @argc:int
+ * @argv:string
+ * 
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
