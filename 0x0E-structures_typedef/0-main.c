@@ -15,6 +15,7 @@
  *     */
 
 int main(void)
+
 {
 
 	    struct dog my_dog;
