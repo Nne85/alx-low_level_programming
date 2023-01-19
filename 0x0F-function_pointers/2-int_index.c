@@ -4,7 +4,7 @@
  * int_index - Search for an integer
  * @array:int
  * @size:int
- * @array:pointer to the function 
+ * @cmp:pointer to the function
  *
  * Return: an integer
  */
