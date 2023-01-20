@@ -2,16 +2,14 @@
 
 /**
  * main - display name of program
- * @agrc: Number of command line arguments
- * @argv: Array name
- *
- * Description: program that prints its name
+ * @agrc:int
+ * @argv:string
  *
  * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 1)
+	if (argc > 0)
 	{
 		printf("%s\n", argv[0]);
 	}
