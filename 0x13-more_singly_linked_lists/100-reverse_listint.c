@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * *reverse_listint - reverse a listint_t linked list
  * @head: first node
