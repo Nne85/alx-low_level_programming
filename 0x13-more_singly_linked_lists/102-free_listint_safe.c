@@ -12,16 +12,16 @@ size_t free_listint_safe(listint_t **h)
 {
 	listint_t *slow, *fast, *temp;
 	size_t nodes = 0;
-	
+
 	slow = *h;
 	fast = *h;
-	
+
 	while (slow && fast && fast->next)
 	{
 		slow = slow->next;
 		fast = fast->next->next;
 		nodes++;
-		
+
 		if (slow == fast)
 		{
 			fast = *h;
@@ -30,8 +30,10 @@ size_t free_listint_safe(listint_t **h)
 				slow = slow->next;
 				temp = fast;
 				fast = fast->next;
-				free(temp);nodes--;
+				free(temp);
+				nodes--;
 			}
+
 			free(slow);
 			*h = NULL;
 			return (nodes);
