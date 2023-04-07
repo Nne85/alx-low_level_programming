@@ -1,8 +1,8 @@
 #include "hash_tables.h"
 #include <stdio.h>
 /**
- * hash_table_print-Printsahashtable.
- * @ht:Thehashtable.
+ * hash_table_print - Printsahashtable.
+ * @ht: Thehashtable.
  *
  * Return: Printed hash table or nth
  */
